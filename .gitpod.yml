@@ -1,0 +1,15 @@
+tasks:
+  - init: |
+      docker compose pull
+      python -m pip install --upgrade pip
+      python manage.py migrate
+  - command: |
+      docker compose up -d
+      pip install -r requirements.txt
+      python manage.py runserver
+
+vscode:
+  extensions:
+    - ms-python.python
+    - formulahendry.code-runner
+    - ms-toolsai.jupyter-keymap
