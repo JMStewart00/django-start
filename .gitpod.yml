@@ -1,8 +1,8 @@
 tasks:
-  - init: |
-      docker compose pull
-      python -m pip install --upgrade pip
-      pip install -r requirements.txt
+  - init: >
+      docker compose pull &&
+      python -m pip install --upgrade pip &&
+      pip install -r requirements.txt &&
       python manage.py migrate
   - command: |
       docker compose up -d
