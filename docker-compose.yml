@@ -11,7 +11,7 @@ services:
   pgadmin:
     image: dpage/pgadmin4
     ports:
-      - 8000:80
+      - 7000:70
     environment:
       - "PGADMIN_DEFAULT_EMAIL=bootcamp@awesomeinc.org"
       - "PGADMIN_DEFAULT_PASSWORD=awesome"
