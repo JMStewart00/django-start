@@ -19,6 +19,9 @@ decorator==5.1.1
 defusedxml==0.7.1
 distlib==0.3.4
 Django==4.0.4
+django-filter==21.1
+djangorestframework==3.13.1
+djangorestframework-simplejwt==5.1.0
 docutils==0.18.1
 entrypoints==0.4
 executing==0.8.3
@@ -42,6 +45,7 @@ jupyter-core==4.9.2
 jupyterlab-pygments==0.1.2
 keyring==23.5.0
 lazy-object-proxy==1.7.1
+Markdown==3.3.6
 MarkupSafe==2.1.0
 matplotlib-inline==0.1.3
 mccabe==0.6.1
@@ -73,11 +77,13 @@ pycparser==2.21
 pydocstyle==6.1.1
 pyflakes==2.4.0
 Pygments==2.11.2
+PyJWT==2.3.0
 pylama==8.3.7
 pylint==2.12.2
 pyparsing==3.0.7
 pyrsistent==0.18.1
 python-dateutil==2.8.2
+pytz==2022.1
 PyYAML==6.0
 pyzmq==22.3.0
 readme-renderer==33.0
